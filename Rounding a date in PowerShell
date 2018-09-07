@@ -1,0 +1,12 @@
+## Brissotech
+## Script provided as is. Use at own risk. No guarantees or warranty provided.
+
+## Source - https://github.com/Brisso/PowerShell-Basics
+## Source - https://jrich523.wordpress.com/2011/10/03/rounding-a-date-in-powershell/
+
+## Description
+## This will round it down to the closest 5 min marker. 
+## You can swap out the minutes for hours or seconds or whatever unit you want as well as change the number.
+
+$dt = get-date
+$dt.addminutes(-($dt.minute % 5))
