@@ -1,5 +1,5 @@
 # PowerShell
-A curated list of tasteful PowerShell scripts that may be of use.
+A curated list of tasteful PowerShell scripts that may be of use..
 
 ### Disclaimer
 
